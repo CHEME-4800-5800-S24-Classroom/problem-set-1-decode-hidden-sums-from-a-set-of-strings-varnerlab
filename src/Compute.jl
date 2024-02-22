@@ -15,7 +15,7 @@ function decode_part_1(models::Dict{Int64, MyPuzzleRecordModel})::Tuple{Int64, D
     codes = Dict{Int64, Int64}();
     
     # TODO: Add the logic for part 1 here
-    # ...
+    number_of_elemetys = length(models);
     
     # return the total -
     return (total, codes);
